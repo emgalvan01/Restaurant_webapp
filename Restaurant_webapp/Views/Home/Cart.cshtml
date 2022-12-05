@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "My Cart";
+}
+<section class="tan-background vh-100">
+    <h1 class="display-3 text-center pt-4">@ViewData["Title"]</h1>
+    <p class="text-center">Your items will appear here!</p>
+    <section class="bg-light mx-5 text-center">
+        <p class="text-muted py-5">Cart is Empty</p>
+    </section>
+    <div class="text-center">
+        <a asp-area="" asp-controller="Home" asp-action="Menu" class="btn green-background text-light">Go to Menu</a>
+    </div>
+</section>
+<style>
+    .dark-green-background {
+        background-color: #386641;
+    }
+
+    .green-background {
+        background-color: #6A994E;
+    }
+
+    .light-green-background {
+        background-color: #A7C957;
+    }
+
+    .light-red-background {
+        background-color: #D48788;
+    }
+
+    .tan-background {
+        background-color: #F2E8CF;
+    }
+
+    .dark-green-item {
+        color: #386641;
+    }
+
+    .green-item {
+        color: #6A994E;
+    }
+
+    .light-green-item {
+        color: #A7C957;
+    }
+
+    .tan-item {
+        color: #F2E8CF;
+    }
+
+    .light-red-item {
+        color: #D48788;
+    }
+
+    .red-item {
+        color: #BC4749;
+    }
+
+    .dark-item {
+        color: #1c1f31;
+    }
+</style>

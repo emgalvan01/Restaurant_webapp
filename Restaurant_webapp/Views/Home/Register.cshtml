@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+<section class="vh-300 tan-background pb-5">
+    <div class="container py-5 h-100">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+                <div class="card" style="border-radius: 1rem;">
+                        <h1 class="display-3 text-center my-2 dark-green-item">@ViewData["Title"]</h1>
+                        <div class=" align-items-center">
+                            <div class="card-body p-4 p-lg-5 text-black">
+                                <form>
+                                    <h5 class="fw-normal mb-3 pb-3 dark-green-item" style="letter-spacing: 1px;">Create an account</h5>
+                                    <div class="form-outline mb-2">
+                                        <input type="text" id="form2Example17" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form2Example17">Name</label>
+                                    </div>
+                                    <div class="form-outline mb-2">
+                                        <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form2Example17">Email address</label>
+                                    </div>
+                                    <div class="form-outline mb-2">
+                                        <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form2Example27">Password</label>
+                                    </div>
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form2Example27">Confirm Password</label>
+                                    </div>
+
+                                    <div class="pt-1 mb-4">
+                                        <button class="btn green-background btn-lg btn-block text-light" type="button">Login</button>
+                                    </div>
+                                    <p class="mb-1 pb-lg-2 red-item">
+                                        Already have an account? <a asp-area="" asp-controller="Home" asp-action="LogIn" class="red-item">Log In here</a>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .dark-green-background {
+        background-color: #386641;
+    }
+
+    .green-background {
+        background-color: #6A994E;
+    }
+
+    .light-green-background {
+        background-color: #A7C957;
+    }
+
+    .light-red-background {
+        background-color: #D48788;
+    }
+
+    .tan-background {
+        background-color: #F2E8CF;
+    }
+
+    .dark-green-item {
+        color: #386641;
+    }
+
+    .green-item {
+        color: #6A994E;
+    }
+
+    .light-green-item {
+        color: #A7C957;
+    }
+
+    .tan-item {
+        color: #F2E8CF;
+    }
+
+    .light-red-item {
+        color: #D48788;
+    }
+
+    .red-item {
+        color: #BC4749;
+    }
+
+    .dark-item {
+        color: #1c1f31;
+    }
+</style>
